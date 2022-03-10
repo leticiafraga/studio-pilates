@@ -80,8 +80,6 @@
           <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
           
         </div>
-
-
       </div>
 
     </div>
