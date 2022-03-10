@@ -28,16 +28,6 @@ header {
   float: right;
 }
 
-.banner {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 100%;
-  height: auto;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
 
 /*main*/
 main {
@@ -49,11 +39,26 @@ main {
   color: white;
 }
 
+.banner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    height: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    filter: brightness(70%);
+}  
+
 .titulo {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 95%;
+  font-size: 150%;
   
 }
 
@@ -81,14 +86,11 @@ main {
 }
 
 /*footer*/
-#footer-copyright {
-  text-align: center;
-  padding: 30px;
-}
+
 #footer-main {
   padding: 30px 20px;
   background-color: #92c14a;
-  color: white !important;
+  color: white;
 }
 
 .redes-sociais {
@@ -96,6 +98,12 @@ main {
   font-size: 2em;
 }
 
-.fa-instagram {
+.fa-instagram, .fa-whatsapp {
   padding-right: 10px;
+  color: white;
 }
+
+#footer-copyright {
+    text-align: center;
+    padding: 40px 30px;
+  }
