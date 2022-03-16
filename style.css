@@ -1,5 +1,5 @@
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding: 0px;
   margin: 0px;
   font-size: 120%;
@@ -84,6 +84,45 @@ main {
   background-color: #92c14a;
   color: white;
   border-width: 0;
+}
+
+.row-cards-home {
+  margin: 0 auto 20px;
+  width: 70%;
+
+}
+
+.cards-home {
+  padding: 20px;
+  text-align: center;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.cards-home > div {
+  height: 100%;
+  padding: 20px 20px;
+  background-color: #eee;
+  transition: transform .3s;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  margin: auto;
+  
+}
+
+.cards-home > div:hover {
+  transform: scale(1.1);
+}
+
+.cards-home img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.5;
+  z-index: -1;
+
+  
 }
 
 /*contatos*/
