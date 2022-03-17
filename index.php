@@ -1,4 +1,4 @@
-<?php $page='home'; include('header.php');?>
+<?php $page='home';?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -15,8 +15,7 @@
 </head>
 
 <body>
-  
-
+    <?php include('header.php') ?>
   <main class="container-fluid">
 
     <div class="row main-row text-container">
