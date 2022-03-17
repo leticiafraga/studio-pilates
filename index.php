@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -15,7 +13,6 @@
 </head>
 
 <body>
-    <?php $page='home';?>
     <?php include('header.php') ?>
   <main class="container-fluid">
 
