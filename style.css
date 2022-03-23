@@ -155,6 +155,7 @@ main {
 .instagram-media {
   width: 90% !important;
   margin: 0 auto !important;
+  min-width: none !important;
 }
 
 .contatos ig {
@@ -197,7 +198,7 @@ main {
 
 .quem-somos > div {
   padding: 30px;
-  width: 80%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
