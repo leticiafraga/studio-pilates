@@ -29,7 +29,6 @@ header {
   float: right;
 }
 
-
 /*main*/
 main {
   padding: 0 !important;
@@ -37,7 +36,7 @@ main {
 .main-row {
   margin: 0px;
   color: white;
-  text-shadow: 5px 5px 10px black;
+  text-shadow: 5px 5px 20px black;
 }
 
 .banner {
@@ -50,7 +49,7 @@ main {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     object-fit: cover;
-    filter: brightness(70%);
+    filter: brightness(90%);
 }  
 
 .titulo {
@@ -78,6 +77,13 @@ main {
 #whatsapp {
   padding: 50px 20px;
   text-align: center;
+}
+
+#whatsapp button {
+  padding: 30px 20px;
+  background-color: #92c14a;
+  color: white;
+  border-width: 0;
   transition: transform .3s;
   position: relative;
   z-index: 2;
@@ -87,15 +93,10 @@ main {
 
 }
 
-#whatsapp:hover {
+#whatsapp button:hover {
   transform: scale(1.1);
-}
-
-#whatsapp > a > button {
-  padding: 20px;
-  background-color: #92c14a;
-  color: white;
-  border-width: 0;
+  cursor: pointer;
+  border: none;
 }
 
 #whatsapp i {
@@ -106,26 +107,27 @@ main {
 .row-cards-home {
   margin: 0 auto;
   max-width: 1200px;
-  padding: 50px 20px;
+  padding: 50px 20px; 
 
 }
 
 .cards-home {
   text-align: center;
-  font-size: 120%;
+  font-size: 1.2em;
   font-weight: bold;
   color:white;
   padding: 0;
   background: rgb(219, 241, 184);
   background: linear-gradient(170deg, rgb(215, 255, 156) 0%, rgb(128, 172, 62) 80%);
+  overflow: hidden;
   
 }
 
 .cards-home > div {
   margin: 0px;
-  min-height: 200px;
+  min-height: 250px;
   height: 100%;
-  padding: 20px;
+  padding: 60px 20px;
   transition: transform .3s;
   position: relative;
   z-index: 2;
@@ -167,7 +169,7 @@ main {
 
 /*contatos*/
 .contatos {
-  padding: 30px;
+  padding: 20px;
   margin: 30px auto;
   width: 80%;
 }
@@ -195,8 +197,26 @@ main {
   list-style: none;
 }
 
-/*quem somos*/
+.contatos .fa-whatsapp {
+  color: #92c14a;
+  
+}
 
+.redes-contatos {
+  display: flex;
+  align-items: center;
+}
+
+.redes-contatos i {
+  font-size: 1.5em;
+  margin: 5px;
+}
+
+hr {
+  margin: 30px 0;
+}
+
+/*quem somos*/
 .quem-somos > div {
   padding: 30px;
   max-width: 1200px;
@@ -216,7 +236,6 @@ main {
 }
 
 /*footer*/
-
 #footer-main {
   padding: 30px 20px;
   background-color: #92c14a;
