@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 0px;
   margin: 0px;
   font-size: 120%;
@@ -44,7 +44,7 @@ main {
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 100%;
+    min-width: 100%;
     height: auto;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -71,7 +71,7 @@ main {
   position: relative;
   color: white;
   text-align: center;
-  height: 400px;
+  height: 390px;
   overflow: hidden;
 }
 
@@ -87,53 +87,82 @@ main {
 }
 
 .row-cards-home {
-  margin: 0 auto 20px;
-  width: 70%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 10px;
 
 }
 
 .cards-home {
-  padding: 20px;
   text-align: center;
   font-size: 120%;
   font-weight: bold;
+  color:white;
+  padding: 0;
+  background: rgb(219, 241, 184);
+  background: linear-gradient(180deg, rgb(215, 255, 156) 0%, rgb(128, 172, 62) 80%);
+  
+
 }
 
 .cards-home > div {
+  margin: 0px;
+  min-height: 200px;
   height: 100%;
-  padding: 20px 20px;
-  background-color: #eee;
+  padding: 20px;
   transition: transform .3s;
   position: relative;
   z-index: 2;
   overflow: hidden;
   margin: auto;
+  width: 90%;
   
 }
 
 .cards-home > div:hover {
   transform: scale(1.1);
+  z-index: 10;
 }
 
 .cards-home img {
   position: absolute;
   left: 0;
   top: 0;
-  opacity: 0.5;
   z-index: -1;
+  min-width: 100%;
+}
 
-  
+.cards-home.img > div{
+  background: #ccc;
+  width: 100%;
+}
+
+.contatos ig {
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
 }
 
 /*contatos*/
 .contatos {
   padding: 30px;
+  margin: 30px auto;
   width: 80%;
-  margin: 0 auto;
 }
 
 .contatos h3 {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  
+}
+
+.contatos > div {
+  margin-top: 20px;
+}
+
+.contatos h3 > span {
+  border-bottom: 3px solid #92c14a;
+  padding-bottom: 2px;
+
 }
 
 .horarios {
@@ -185,4 +214,11 @@ main {
 #footer-copyright {
     text-align: center;
     padding: 40px 30px;
+  }
+
+  @media (max-width: 600px)
+  {
+    .contatos {
+      width: 100%;
+    }
   }
