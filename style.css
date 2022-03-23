@@ -37,6 +37,7 @@ main {
 .main-row {
   margin: 0px;
   color: white;
+  text-shadow: 5px 5px 10px black;
 }
 
 .banner {
@@ -105,7 +106,7 @@ main {
 .row-cards-home {
   margin: 0 auto;
   max-width: 1200px;
-  padding: 50px 10px;
+  padding: 50px 20px;
 
 }
 
@@ -116,7 +117,7 @@ main {
   color:white;
   padding: 0;
   background: rgb(219, 241, 184);
-  background: linear-gradient(180deg, rgb(215, 255, 156) 0%, rgb(128, 172, 62) 80%);
+  background: linear-gradient(170deg, rgb(215, 255, 156) 0%, rgb(128, 172, 62) 80%);
   
 }
 
