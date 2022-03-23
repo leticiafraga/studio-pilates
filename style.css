@@ -36,7 +36,6 @@ main {
 }
 .main-row {
   margin: 0px;
-  background-color: #92c14a;
   color: white;
 }
 
@@ -76,7 +75,19 @@ main {
 }
 
 #whatsapp {
+  padding: 50px 20px;
   text-align: center;
+  transition: transform .3s;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  margin: auto;
+  font-size: 1.2em;
+
+}
+
+#whatsapp:hover {
+  transform: scale(1.1);
 }
 
 #whatsapp > a > button {
@@ -86,10 +97,15 @@ main {
   border-width: 0;
 }
 
+#whatsapp i {
+  font-size: 1.4em;
+
+}
+
 .row-cards-home {
   margin: 0 auto;
   max-width: 1200px;
-  padding: 10px;
+  padding: 50px 10px;
 
 }
 
@@ -102,7 +118,6 @@ main {
   background: rgb(219, 241, 184);
   background: linear-gradient(180deg, rgb(215, 255, 156) 0%, rgb(128, 172, 62) 80%);
   
-
 }
 
 .cards-home > div {
