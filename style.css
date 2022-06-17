@@ -254,7 +254,8 @@ hr {
 
 #footer-copyright {
     text-align: center;
-    padding: 40px 30px;
+    padding: 30px 20px;
+    font-size: 0.9rem;
   }
 
   @media (max-width: 600px)
