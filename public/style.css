@@ -74,12 +74,12 @@ main {
   overflow: hidden;
 }
 
-#whatsapp {
+#whatsapp, #btn-404 {
   padding: 50px 20px;
   text-align: center;
 }
 
-#whatsapp button {
+#whatsapp button, #btn-404 button {
   padding: 30px 20px;
   background-color: #92c14a;
   color: white;
@@ -90,7 +90,6 @@ main {
   overflow: hidden;
   margin: auto;
   font-size: 1.2em;
-
 }
 
 #whatsapp button:hover {
