@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "studio-zen-pilates"
+  },
+  "targets": {
+    "studio-zen-pilates": {
+      "hosting": {
+        "prod": [
+          "studiozenpilates"
+        ]
+      }
+    }
+  }
+}
