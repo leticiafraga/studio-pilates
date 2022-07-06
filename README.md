@@ -1,3 +1,3 @@
 # Studio Zen Pilates
 
-Versão em desenvolvimento hospedada em: https://leticiafraga.github.io/studio-pilates/
+Site de um Estúdio de Pilates e Clínica de Fisioterapia hospedado em https://studiozenpilates.web.app por meio do Firebase Hosting.
