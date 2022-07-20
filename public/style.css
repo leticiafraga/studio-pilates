@@ -35,8 +35,7 @@ main {
 }
 .main-row {
   margin: 0px;
-  color: white;
-  text-shadow: 5px 5px 20px black;
+  text-shadow: 5px 5px 30px #aaa;
 }
 
 .banner {
